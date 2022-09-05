@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main>
+  <h1>Our Pricing</h1>
+  <div id="billing-section">
+    <p>Annually</p>
+    <input type="checkbox" id="billing-type" checked>
+    <p>Monthly</p>
+  </div>
+  <section>
+    <div id="basic-plan">
+      <h2 class="plan-type">Basic</h2>
+      <h3>&dollar;<span class="price" id="basic-plan-price">19.99</span></h3>
+      <!-- &dollar;199.99 -->
+      <div class="features">
+        <p>500 GB Storage</p>
+        <p>2 Users Allowed</p>
+        <p>Send up to 3 GB</p>
+      </div>
+      <button class="learn-more-button">Learn More</button>
+    </div>
+    <div id="professional-plan">
+      <h2 class="plan-type">Professional</h2>
+      <h3>&dollar;<span class="price" id="professional-plan-price">24.99</span></h3>
+      <!-- &dollar;249.99 -->
+      <div class="features">
+        <p>1 TB Storage</p>
+        <p>5 Users Allowed</p>
+        <p>Send up to 10 GB</p>
+      </div>
+      <button class="learn-more-button">Learn More</button>
+    </div>
+    <div id="master-plan">
+      <h2 class="plan-type">Master</h2> 
+      <h3>&dollar;<span class="price" id="master-plan-price">39.99</span></h3>
+      <!-- &dollar;399.99 -->
+      <div class="features">
+        <p>2 TB Storage</p>
+        <p>10 Users Allowed</p>
+        <p>Send up to 20 GB</p>
+      </div>
+      <button class="learn-more-button">Learn More</button>
+    </div>
+  </section>
+  </main>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">shikoto</a>.
+  </div>
+</body>
+</html>
