@@ -174,7 +174,7 @@ section {
         width: 100%;  
         max-height: none;  
         max-width: none;    
-        height: 40vh;  
+        height: 45vh;  
         padding: 4% 4%; 
         border-radius: 8px; 
     } 
@@ -182,7 +182,7 @@ section {
         width: 100%;  
         max-height: none;  
         max-width: none;      
-        height: 40vh;     
+        height: 45vh;     
         padding: 4% 4%;
     }
     #basic-plan:hover {
@@ -194,4 +194,7 @@ section {
     #master-plan:hover {
         transform: none;
     }
+    .learn-more-button {
+        padding: 5px 0;
+    } 
 }
